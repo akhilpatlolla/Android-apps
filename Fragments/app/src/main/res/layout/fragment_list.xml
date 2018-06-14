@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context="edu.niu.cs.akhil.fragments.ListFragment"
+              android:orientation="vertical"
+              android:background="@color/colorAccent"
+              android:padding="40dp">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <Button
+        android:text="@string/plum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/plumButton"
+        android:contentDescription="@string/plum_detals"/>
+
+    <Button
+        android:text="@string/blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/blueButton"
+        android:contentDescription="@string/blue_detals"/>
+
+    <Button
+        android:text="@string/gold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/goldButton"
+        android:contentDescription="@string/gold_detals"/>
+</LinearLayout>

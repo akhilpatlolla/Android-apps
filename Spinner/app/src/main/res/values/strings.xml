@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Spinner</string>
+    <string-array name="heroNames">
+        <item>BAT MAN</item>
+        <item>SUPER MAN</item>
+        <item>SPIDER MAN</item>
+    </string-array>
+
+</resources>

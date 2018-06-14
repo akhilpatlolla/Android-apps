@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="edu.niu.cs.akhil.calculator.MainActivity"
+    android:background="@android:color/darker_gray">
+
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="12dp"
+        android:id="@+id/et1"
+        android:hint="@string/m1"
+        android:layout_alignParentStart="true"
+        android:textStyle="normal|bold|italic" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:ems="10"
+        android:layout_below="@+id/et1"
+        android:layout_alignStart="@+id/et1"
+        android:layout_marginTop="28dp"
+        android:id="@+id/et2"
+        android:layout_alignEnd="@+id/et1"
+        android:hint="@string/m2"
+        android:textStyle="normal|bold|italic" />
+
+    <Button
+        android:text="@string/mul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/multiplication"
+        android:layout_toStartOf="@+id/division"
+        android:elevation="24dp"
+        android:textStyle="normal|bold"
+        android:layout_alignBottom="@+id/subtract"
+        android:layout_alignTop="@+id/subtract" />
+
+    <Button
+        android:text="@string/divide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/division"
+        android:layout_alignBottom="@+id/multiplication"
+        android:layout_alignParentEnd="true"
+        android:elevation="24dp"
+        android:textStyle="normal|bold"
+        android:layout_alignTop="@+id/multiplication" />
+
+    <Button
+        android:text="@string/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="112dp"
+        android:id="@+id/addition"
+        android:elevation="24dp"
+        android:layout_below="@+id/et2"
+        android:layout_alignParentStart="true"
+        android:textStyle="normal|bold"
+        android:layout_toStartOf="@+id/multiplication"
+        android:layout_marginEnd="87dp" />
+
+    <TextView
+        android:text="@string/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et2"
+        android:layout_alignStart="@+id/addition"
+        android:layout_marginTop="30dp"
+        android:id="@+id/output"
+        android:textStyle="normal|bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/output"
+        android:layout_toEndOf="@+id/output"
+        android:layout_marginStart="29dp"
+        android:id="@+id/op"
+        android:hint="watch out for the result B) " />
+
+    <Button
+        android:text="@string/sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/subtract"
+        android:textStyle="normal|bold"
+        android:layout_alignBottom="@+id/addition"
+        android:layout_alignTop="@+id/addition"
+        android:layout_toStartOf="@+id/multiplication" />
+
+    <Button
+        android:text="@string/clear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:id="@+id/delete"
+        android:fontFamily="sans-serif-condensed"
+        android:typeface="monospace"
+        android:textStyle="normal|bold|italic"
+        android:textSize="20sp"
+        android:layout_below="@+id/multiplication"
+        android:layout_alignStart="@+id/addition" />
+
+
+</RelativeLayout>

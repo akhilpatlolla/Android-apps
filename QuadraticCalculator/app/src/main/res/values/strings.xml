@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Quadratic Calculator</string>
+    <string name="header_value1">Quadratic Calculator where equation is in the format of</string>
+    <string name="header_value2">A * x^2 + B * x + C = 0</string>
+    <string name="header_value3">where A, B, C are the co-efficient of the quadratic equation.</string>
+    <string name="valuea">A</string>
+    <string name="valueb">B</string>
+    <string name="valuec">C</string>
+    <string name="solve">Solve</string>
+    <string name="solution">Please Enter Values and Click Solve :p </string>
+    <string name="sol1">First Root</string>
+    <string name="sol2">Second Root</string>
+</resources>

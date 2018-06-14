@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Shipping Calculator</string>
+    <string name="weightString">Weight of the Package</string>
+    <string name="ouncesString">(in ounces)</string>
+    <string name="baseCostString">Base Cost:</string>
+    <string name="addedCostString">Added Cost:</string>
+    <string name="totalCostString">Total Shipping Cost:</string>
+    <string name="zeroDollarString">$0.00</string>
+    <string name="zeroString">0</string>
+    <string name="help">Help</string>
+    <string name="helptext">
+        \nThis is a help text example which is used to show \n\n\n
+        and make some base cost and shipping calculations \n\n
+        where 3$ for first 16 oz and adistional cost of 50 cents \n\n
+        for each additional correctness.\n\n
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Roges enim Aristonem, bonane ei videantur haec: vacuitas doloris, divitiae, valitudo; Idem etiam dolorem saepe perpetiuntur, ne, si id non faciant, incidant in maiorem. Paulum, cum regem Persem captum adduceret, eodem flumine invectio? Quid est, quod ab ea absolvi et perfici debeat? Quorum sine causa fieri nihil putandum est. Duo Reges: constructio interrete. Ita enim vivunt quidam, ut eorum vita refellatur oratio. An eum discere ea mavis, quae cum plane perdidiceriti nihil sciat? </p>\n\n
+
+<p>Quod autem in homine praestantissimum atque optimum est, id deseruit. Progredientibus autem aetatibus sensim tardeve potius quasi nosmet ipsos cognoscimus. Sed quoniam et advesperascit et mihi ad villam revertendum est, nunc quidem hactenus; Quodsi vultum tibi, si incessum fingeres, quo gravior viderere, non esses tui similis; Huius, Lyco, oratione locuples, rebus ipsis ielunior. </p>\n\n
+
+<p>Quaesita enim virtus est, non quae relinqueret naturam, sed quae tueretur. Restatis igitur vos; Quo tandem modo? Quae tamen a te agetur non melior, quam illae sunt, quas interdum optines. Quid, si reviviscant Platonis illi et deinceps qui eorum auditores fuerunt, et tecum ita loquantur? Quae cum essent dicta, discessimus. Id enim volumus, id contendimus, ut officii fructus sit ipsum officium. Zenonis est, inquam, hoc Stoici. Audax negotium, dicerem impudens, nisi hoc institutum postea translatum ad philosophos nostros esset. </p>\n\n
+
+<p>Utilitatis causa amicitia est quaesita. Quid ergo aliud intellegetur nisi uti ne quae pars naturae neglegatur? Quodcumque in mentem incideret, et quodcumque tamquam occurreret. Tria genera cupiditatum, naturales et necessariae, naturales et non necessariae, nec naturales nec necessariae. Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Sed eum qui audiebant, quoad poterant, defendebant sententiam suam. Qua tu etiam inprudens utebare non numquam. Ratio quidem vestra sic cogit. Atque hoc loco similitudines eas, quibus illi uti solent, dissimillimas proferebas. Quid turpius quam sapientis vitam ex insipientium sermone pendere? </p>\n\n\n\n
+
+<p>Memini me adesse P. Poterat autem inpune; Ea, quae dialectici nunc tradunt et docent, nonne ab illis instituta sunt aut inventa sunt? Idem iste, inquam, de voluptate quid sentit? Saepe ab Aristotele, a Theophrasto mirabiliter est laudata per se ipsa rerum scientia; Negat enim summo bono afferre incrementum diem. Confecta res esset. </p>\n\n\n\n
+
+
+
+    </string>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Splash Screen</string>
+    <string name="playGuitarString">play guitar</string>
+    <string name="pauseGuitarString">pause guitar</string>
+    <string name="playDrumsString">play Drums</string>
+    <string name="pauseDrumsString">pause Drums</string>
+
+</resources>

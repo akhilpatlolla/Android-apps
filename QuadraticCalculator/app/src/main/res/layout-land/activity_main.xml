@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="edu.niu.cs.akhil.quadraticcalculator.MainActivity"
+    android:background="?attr/colorButtonNormal">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/header1"
+        android:text="@string/header_value1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/header2"
+        android:layout_below="@+id/header1"
+        android:layout_alignParentStart="true"
+        android:text="@string/header_value2"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/header3"
+        android:layout_below="@+id/header2"
+        android:layout_alignParentStart="true"
+        android:text="@string/header_value3"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:text="@string/valuea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ca"
+        android:layout_marginTop="26dp"
+        android:layout_below="@+id/header3"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="26dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:ems="10"
+        android:layout_marginStart="23dp"
+        android:id="@+id/coefficientA"
+        android:layout_alignBaseline="@+id/ca"
+        android:layout_alignBottom="@+id/ca"
+        android:layout_toEndOf="@+id/cc"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/x2"
+        android:hint="@string/sol2"
+        android:layout_alignBaseline="@+id/x1"
+        android:layout_alignBottom="@+id/x1"
+        android:layout_alignEnd="@+id/solution"
+        android:layout_marginEnd="42dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:ems="10"
+        android:id="@+id/coefficientB"
+        android:layout_below="@+id/coefficientA"
+        android:layout_alignStart="@+id/coefficientA"
+        android:layout_marginTop="17dp"/>
+
+    <TextView
+        android:text="@string/valuec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cc"
+        android:layout_below="@+id/coefficientB"
+        android:layout_alignEnd="@+id/cb"
+        android:layout_marginTop="38dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:ems="10"
+        android:id="@+id/coefficientC"
+        android:layout_alignBaseline="@+id/cc"
+        android:layout_alignBottom="@+id/cc"
+        android:layout_alignStart="@+id/coefficientB"/>
+
+    <TextView
+        android:text="@string/solution"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/solution"
+        android:textStyle="normal|bold"
+        android:layout_marginEnd="13dp"
+        android:layout_alignBottom="@+id/coefficientB"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/x1"
+        android:hint="@string/sol1"
+        android:layout_alignTop="@+id/coefficientB"
+        android:layout_toStartOf="@+id/x2"
+        android:layout_marginEnd="27dp"/>
+
+    <Button
+        android:text="@string/solve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/solve"
+        android:background="@android:drawable/alert_light_frame"
+        android:layout_alignBottom="@+id/coefficientC"
+        android:layout_alignStart="@+id/x1"
+        android:layout_marginStart="31dp"/>
+
+    <TextView
+        android:text="@string/valueb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb"
+        android:layout_alignBottom="@+id/coefficientB"
+        android:layout_alignEnd="@+id/ca"/>
+</RelativeLayout>

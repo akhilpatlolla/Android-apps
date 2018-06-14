@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="3dp"
+    android:paddingBottom="3dp"
+    android:paddingEnd="3dp"
+    android:paddingLeft="3dp"
+    android:paddingRight="3dp"
+    android:paddingStart="3dp"
+    android:paddingTop="3dp">
+
+    <Button
+        android:text="Small"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/smallBrushButton"
+        android:padding="2dp"
+        android:paddingBottom="2dp"
+        android:paddingEnd="2dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:paddingStart="2dp"
+        android:paddingTop="2dp" />
+
+    <Button
+        android:text="Medium"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/mediumBrushButton"
+        android:padding="2dp"
+        android:paddingBottom="2dp"
+        android:paddingEnd="2dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:paddingStart="2dp"
+        android:paddingTop="2dp" />
+
+    <Button
+        android:text="Large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/largeBrushButton"
+        android:padding="2dp"
+        android:paddingBottom="2dp"
+        android:paddingEnd="2dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:paddingStart="2dp"
+        android:paddingTop="2dp" />
+</LinearLayout>

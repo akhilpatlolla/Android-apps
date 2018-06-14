@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="edu.niu.cs.akhil.widget.MainActivity"
+    android:background="@drawable/background">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/topbun"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@drawable/bottombun"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:text="@string/baconString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/baconCheckBox"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_alignTop="@+id/pattyRadioGroup"
+        android:layout_alignEnd="@+id/cheeseRadioGroup"
+        android:layout_marginEnd="12dp" />
+
+    <TextView
+        android:text="@string/calorieString"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/calorieTextView"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold|italic"
+        android:layout_above="@+id/imageView2"
+        android:layout_alignParentStart="true" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cheeseRadioGroup"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp">
+
+        <RadioButton
+            android:text="@string/noCheeseString"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/noCheeseRadioButton"
+            android:layout_weight="1"
+            android:layout_marginRight="10sp"
+            android:checked="false"/>
+
+        <RadioButton
+            android:text="@string/cheddarString"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cheese1RadioButton"
+            android:layout_weight="1"
+            android:layout_marginRight="10sp"
+            android:checked="true" />
+
+        <RadioButton
+            android:text="@string/mozzString"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cheese2RadioButton"
+            android:layout_weight="1"
+            android:checked="false" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pattyRadioGroup"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/cheeseRadioGroup"
+        android:layout_alignStart="@+id/cheeseRadioGroup"
+        android:layout_marginTop="18dp">
+
+        <RadioButton
+            android:text="@string/pattyOneString"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/beefRadioButton"
+            android:layout_weight="1"
+            android:checked="false" />
+
+        <RadioButton
+            android:text="@string/pattyTwoString"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/turkeyRadioButton"
+            android:layout_weight="1"
+            android:checked="true" />
+
+        <RadioButton
+        android:text="@string/pattyThreeString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/veggieRadioButton"
+        android:layout_weight="1"
+            android:checked="false" />
+    </RadioGroup>
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sauceSeekBar"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/baconCheckBox"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="59dp" />
+
+    <TextView
+        android:text="@string/sauceString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/sauceSeekBar"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

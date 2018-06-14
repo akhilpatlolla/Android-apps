@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BasicCalc</string>
+    <string name="m1">Enter First Number</string>
+    <string name="m2">Enter Second Number </string>
+    <string name="result">Result : </string>
+    <string name="add">+</string>
+    <string name="sub">-</string>
+    <string name="mul">*</string>
+    <string name="divide">/</string>
+    <string name="clear">clear</string>
+
+</resources>
